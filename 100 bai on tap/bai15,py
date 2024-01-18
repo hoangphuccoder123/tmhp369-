@@ -1,0 +1,8 @@
+a = float(input("Nhập số thực dương a: "))
+b = float(input("Nhập số thực dương b: "))
+c = float(input("Nhập số thực dương c: "))
+
+if a + b > c and b + c > a and c + a > b:
+    print("Các số a, b, c có thể tạo thành độ dài của một tam giác")
+else:
+    print("Các số a, b, c không thể tạo thành độ dài của một tam giác")

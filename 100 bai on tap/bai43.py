@@ -1,0 +1,5 @@
+chuoi = input("Nhập vào một chuỗi: ")
+chuoi = ''.join(e for e in chuoi if e.isalnum() or e.isspace())
+tu = chuoi.split()
+so_tu = len(tu)
+print("Số từ trong chuỗi là:", so_tu)
